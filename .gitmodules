@@ -1,0 +1,4 @@
+[submodule "themes/neopage"]
+	path = themes/neopage
+	url = git@github.com:erikeah/neopage.git
+	branch = main
