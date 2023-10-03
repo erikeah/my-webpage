@@ -1,4 +1,20 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Erik Eduardo'
 theme = 'neopage'
+
+[menu]
+  [[menu.main]]
+  identifier = "about"
+  name = "Contact"
+  url = "/contact"
+  weight = 0
+  [[menu.main]]
+  identifier = "portfolio"
+  name = "Portfolio"
+  url = "/portfolio"
+  weight = 1
+
+[params]
+  author = 'Erik Eduardo Alonso Hernández'
+  description = 'Find backend engineering, linux and opinion articles.'
